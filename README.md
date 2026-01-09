@@ -1,4 +1,5 @@
 ![Icon](https://www.larrymtaylor.com/images/ai-128.png)  
+
 # AppInfo
 
 ## Description
@@ -7,6 +8,9 @@ AppInfo is a utility that lists all installed VST, VST3, and
 AAX plugins and displays information about each one.
 
 ## Dependencies
+
+**AppInfo must be compiled with Xcode version 16.x or earlier.** Compiling with Xcode version 26.x will force Liquid Glass "compatibility" and will make the UI difficult to read when running on macOS Tahoe.
+
 AppInfo requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
 
@@ -44,7 +48,7 @@ and, 2) indents are four spaces.
 The code in this repository is licensed under the MIT license unless
 otherwise noted within specific files.
 
-Copyright © 2020-2025 Larry M. Taylor <software@larrymtaylor.com>
+Copyright &copy; 2020-2026 Larry M. Taylor <software@larrymtaylor.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
