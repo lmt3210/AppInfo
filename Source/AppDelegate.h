@@ -1,7 +1,7 @@
 //
 // AppDelegate.h
 // 
-// Copyright (c) 2020-2025 Larry M. Taylor
+// Copyright (c) 2020-2026 Larry M. Taylor
 //
 // This software is provided 'as-is', without any express or implied
 // warranty. In no event will the authors be held liable for any damages
@@ -22,16 +22,22 @@
 #import <Cocoa/Cocoa.h>
 
 #import "LTVersionCheck.h"
+#import "AboutWindowController.h"
 #import "MasterViewController.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
     // For version check
     LTVersionCheck *mVersionCheck;
+    NSString *mAppVersion;
     
     // For logging
     os_log_t mLog;
 }
+
+- (IBAction)showAboutBox:(id)sender;
+- (IBAction)checkForUpdates:(id)sender;
 
 @property (nonatomic,strong) IBOutlet MasterViewController
     *masterViewController;

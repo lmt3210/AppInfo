@@ -15,7 +15,6 @@
 		35BB3F8F15D6D2560079230E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F8D15D6D2560079230E /* MasterViewController.xib */; };
 		35BB3F9415D6D8FC0079230E /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F9315D6D8FC0079230E /* AppData.m */; };
 		46048F6E2652E58A007A15CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46048F6D2652E58A007A15CF /* Images.xcassets */; };
-		463C18502A34D84D002FE4DD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 463C184F2A34D84D002FE4DD /* Credits.html */; };
 		464976C02A33DC2200DFD235 /* ai-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 464976B92A33DC2200DFD235 /* ai-64.png */; };
 		464976C12A33DC2200DFD235 /* ai-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 464976BA2A33DC2200DFD235 /* ai-32.png */; };
 		464976C22A33DC2200DFD235 /* ai-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 464976BB2A33DC2200DFD235 /* ai-128.png */; };
@@ -25,6 +24,9 @@
 		464976C62A33DC2200DFD235 /* ai-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 464976BF2A33DC2200DFD235 /* ai-16.png */; };
 		46592ACB296D8D2900FF0F1F /* LTInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */; };
 		46592ACC296D8D2900FF0F1F /* LTInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */; };
+		468A26C62F769E3700248BC1 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 468A26C52F769E3700248BC1 /* Credits.txt */; };
+		468A26CA2F769EAB00248BC1 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A26C92F769EAB00248BC1 /* AboutWindowController.m */; };
+		468A26CB2F769EAB00248BC1 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468A26C72F769EAB00248BC1 /* AboutWindow.xib */; };
 		46B9AC8929845DFF005E4FAE /* help in Resources */ = {isa = PBXBuildFile; fileRef = 46B9AC8829845DFF005E4FAE /* help */; };
 		46FB5AD2298990C40025E6E5 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5AD1298990C40025E6E5 /* LTVersionCheck.m */; };
 		46FB5AD6298990E50025E6E5 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FB5AD3298990E50025E6E5 /* LTPopup.xib */; };
@@ -44,7 +46,6 @@
 		35BB3F9215D6D8FC0079230E /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
 		35BB3F9315D6D8FC0079230E /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
 		46048F6D2652E58A007A15CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		463C184F2A34D84D002FE4DD /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		464976B92A33DC2200DFD235 /* ai-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ai-64.png"; sourceTree = "<group>"; };
 		464976BA2A33DC2200DFD235 /* ai-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ai-32.png"; sourceTree = "<group>"; };
 		464976BB2A33DC2200DFD235 /* ai-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ai-128.png"; sourceTree = "<group>"; };
@@ -55,6 +56,10 @@
 		46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTInfoWindow.m; path = ../../LTCommon/LTInfoWindow.m; sourceTree = "<group>"; };
 		46592AC9296D8D2900FF0F1F /* LTInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTInfoWindow.h; path = ../../LTCommon/LTInfoWindow.h; sourceTree = "<group>"; };
 		46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LTInfoWindow.xib; path = ../../LTCommon/LTInfoWindow.xib; sourceTree = "<group>"; };
+		468A26C52F769E3700248BC1 /* Credits.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		468A26C72F769EAB00248BC1 /* AboutWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutWindow.xib; path = ../LTCommon/AboutWindow.xib; sourceTree = SOURCE_ROOT; };
+		468A26C82F769EAB00248BC1 /* AboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutWindowController.h; path = ../LTCommon/AboutWindowController.h; sourceTree = SOURCE_ROOT; };
+		468A26C92F769EAB00248BC1 /* AboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutWindowController.m; path = ../LTCommon/AboutWindowController.m; sourceTree = SOURCE_ROOT; };
 		46B9AC8829845DFF005E4FAE /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
 		46D8D28E264F2CE70018A5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		46DCB25C28A29E2600422083 /* AppInfo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppInfo.entitlements; sourceTree = "<group>"; };
@@ -149,7 +154,7 @@
 		46048F5E2652E557007A15CF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				463C184F2A34D84D002FE4DD /* Credits.html */,
+				468A26C52F769E3700248BC1 /* Credits.txt */,
 				46B9AC8829845DFF005E4FAE /* help */,
 				464976BF2A33DC2200DFD235 /* ai-16.png */,
 				464976BA2A33DC2200DFD235 /* ai-32.png */,
@@ -175,6 +180,9 @@
 		46FEFD7E2841156C005547C4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				468A26C82F769EAB00248BC1 /* AboutWindowController.h */,
+				468A26C92F769EAB00248BC1 /* AboutWindowController.m */,
+				468A26C72F769EAB00248BC1 /* AboutWindow.xib */,
 				46592AC9296D8D2900FF0F1F /* LTInfoWindow.h */,
 				46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */,
 				46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */,
@@ -215,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1640;
 				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 35BB3F6415D6CF310079230E /* Build configuration list for PBXProject "AppInfo" */;
@@ -243,10 +251,11 @@
 			files = (
 				464976C42A33DC2200DFD235 /* ai-512.png in Resources */,
 				46B9AC8929845DFF005E4FAE /* help in Resources */,
+				468A26CB2F769EAB00248BC1 /* AboutWindow.xib in Resources */,
 				35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */,
-				463C18502A34D84D002FE4DD /* Credits.html in Resources */,
 				46048F6E2652E58A007A15CF /* Images.xcassets in Resources */,
 				46592ACC296D8D2900FF0F1F /* LTInfoWindow.xib in Resources */,
+				468A26C62F769E3700248BC1 /* Credits.txt in Resources */,
 				464976C12A33DC2200DFD235 /* ai-32.png in Resources */,
 				464976C02A33DC2200DFD235 /* ai-64.png in Resources */,
 				464976C62A33DC2200DFD235 /* ai-16.png in Resources */,
@@ -266,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BB3F7B15D6CF310079230E /* main.m in Sources */,
+				468A26CA2F769EAB00248BC1 /* AboutWindowController.m in Sources */,
 				35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */,
 				35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */,
 				35BB3F9415D6D8FC0079230E /* AppData.m in Sources */,
@@ -390,13 +400,13 @@
 				CODE_SIGN_ENTITLEMENTS = AppInfo.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "Source/AppInfo-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.AppInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -410,13 +420,13 @@
 				CODE_SIGN_ENTITLEMENTS = AppInfo.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "Source/AppInfo-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.AppInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

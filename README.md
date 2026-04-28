@@ -4,8 +4,7 @@
 
 ## Description
 
-AppInfo is a utility that lists all installed VST, VST3, and
-AAX plugins and displays information about each one.
+AppInfo is a utility that lists all installed applications and displays information about each one.
 
 ## Dependencies
 
