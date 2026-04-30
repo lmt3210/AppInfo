@@ -42,6 +42,9 @@
 
     // Set up logging
     mLog = os_log_create("com.larrymtaylor.AppInfo", "AppDelegate");
+    
+    // Initialize variables
+    mVersionCheck = nil;
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
